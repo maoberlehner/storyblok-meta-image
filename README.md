@@ -22,8 +22,8 @@ Because Storyblok plugins share a global namespace, you have to choose a distinc
      initWith() {
        return {
          assets: [],
--        plugin: `meta-image`,
-+        plugin: `YOUR-DISTINCT-NAME`,
+-        plugin: 'meta-image',
++        plugin: 'YOUR-DISTINCT-NAME',
        };
      },
 ```
